@@ -1,0 +1,80 @@
+@media only screen and (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .App{
+        height: 100%;
+        width: 125vw;
+    }
+
+    .header-logo img{
+        width: 80vw;
+        height: 120px;
+    }
+
+    .award{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .award-img img {
+        width: 95vw;
+        height: 55vh;
+    }
+
+    .award-content{
+        width: 90vw;
+        font-size: 22px;
+    }
+
+    .award-content img{
+        width: 95vw;
+        height: 45vh;
+    }
+
+    .award-content p{
+        margin-top: 1rem;
+        width: 90vw;
+        font-size: 20px;
+    }
+
+    .about{
+        margin-left: 1rem;
+        width: 110vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+      
+    .about img{
+        width: 100vw;
+        height: 40vw;
+    }
+
+    .about-statement{
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .about-statement p{
+        width: 95vw;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        row-gap: 2rem;
+        background-color: red;
+        width: 95vw;
+        height: 25vh;
+    }
+  }
