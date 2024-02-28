@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './Responsive.css';
 import { FaPhoneSquareAlt } from "react-icons/fa";
